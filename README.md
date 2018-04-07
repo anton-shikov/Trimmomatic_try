@@ -24,14 +24,14 @@ Use this following to execute tool:
 ```
 ~$ python Trimmomatic_try -isq test.fastq -hd 15 -tl 10 -wn 5 -th 30 -osq test_trimmed.fastq 
 ```
-Information about flags:
--isq input sequence fastq file
--hd the size of headcrop (0 for default) 
--tl the size of tailcrop (0 for default)
--wn the size of sliding clip (5 for default) 
+Information about flags:  
+-isq input sequence fastq file  
+-hd the size of headcrop (0 for default)  
+-tl the size of tailcrop (0 for default)  
+-wn the size of sliding clip (5 for default)  
 -th  base quality thershold (0 for default)  
--osq output sequence fastq file
-Output format: trimmed sequence in fasq format
+-osq output sequence fastq file  
+Output format: trimmed sequence in fasq format  
 
 ## Author
 
